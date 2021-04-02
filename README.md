@@ -10,12 +10,12 @@
 * [Technologies](#tech)
 * [Implementation Skeleton](#skeleton)
 
-### <a name="team-members"></a>Team Members
+## <a name="team-members"></a>Team Members
 * "Sushmmita Paul" <b18cs007@nitm.ac.in> @sushmita04
 * "Sudha Kumari" <b18cs009@nitm.ac.in> @sudha123kumari
 * "Ramneti Deepthi" <b18cs030@nitm.ac.in> @deepthi132
 
-### <a name="background"></a>Background of the project
+## <a name="background"></a>Background of the project
 **Problem Statement**
 
 While we spend our time in shopping online now, we need to swap to messaging applications several times to share each item and/or get comments & suggestions on the same. At the same time, referring to those items (specially when they are more than two and they are shared as messages) becomes extremely difficult and tedious in between the chat.
@@ -28,7 +28,7 @@ To address the problems mentioned in the previous slide, we have a well-thought 
 
 People in each group can like, approve and discuss/suggest on the items (all confined to themselves) in the wishlist. Now to facilitate the discussion without having to swap applications to chat, we include a feature wherein the members and the user can refer to items and chat. A horizontal/vertical scrollable display of item images is provided on every chat of the wishlist. One can click on the product’s image and switch to the  chat  specific for that particular  item. The user can move the final selection from wishlist to cart.<hr>
 
-### <a name="features"></a>What are the features we are looking at
+## <a name="features"></a>What are the features we are looking at
 
 Let owner be _user_, who can create different _groups_, people added to those groups be _members_, while items shared to those groups make a _wishlist_.
 - [x] Multiple wishlists can be created to share with multiple groups (of friends, family etc) or to simply categorize products for ease.
@@ -40,7 +40,7 @@ Let owner be _user_, who can create different _groups_, people added to those gr
 - [x] Sub-chats for individual product in a wishlist group is just a click away.
 
 
-### <a name="impact"></a>How does it impact
+## <a name="impact"></a>How does it impact
 - [x] This model aids in understanding social perspective and helps in decision making, which in turn increases the sales.
 - [x] Opinion collection on individual products makes the collaborative shopping organized, instead of all the suggestions being wasted and/or lost in a chat. 
 - [x] Multiple wishlists facilitate categorizing products or wanting to share with different groups of people.
@@ -49,8 +49,9 @@ Let owner be _user_, who can create different _groups_, people added to those gr
 - [x] For many people, shopping has always been a social activity so it improves customer traffic and boosts sales.
 
 
-### <a name="tech"></a>Technologies
+## <a name="tech"></a>Technologies
 
 
 ## <a name="skeleton"></a>Implementation Skeleton
-![alt text](Implementation Skeleton.png)
+![Image of Implementation Skeleton](Implementation_Skeleton.png)
+
