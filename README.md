@@ -11,7 +11,7 @@
 * [Implementation Skeleton](#skeleton)
 
 ## <a name="team-members"></a>Team Members
-* "Sushmmita Paul" <b18cs007@nitm.ac.in> @sushmita04
+* "Sushmita Paul" <b18cs007@nitm.ac.in> @sushmita04
 * "Sudha Kumari" <b18cs009@nitm.ac.in> @sudha123kumari
 * "Ramneti Deepthi" <b18cs030@nitm.ac.in> @deepthi132
 
