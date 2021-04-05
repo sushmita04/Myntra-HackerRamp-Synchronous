@@ -1,0 +1,194 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  /* max-width: 1440px; */
+}
+html,
+body {
+  position: relative;
+}
+
+body {
+  overflow-y: auto;
+  min-height: 100vh;
+}
+textarea:focus,
+input:focus {
+  outline: none;
+}
+a {
+  color: inherit !important;
+  text-decoration: none !important;
+}
+footer {
+  background: #f1f1f1;
+  width: 100%;
+  padding: 16px 0px;
+  color: #999;
+  vertical-align: bottom;
+  margin-top: 40px;
+  /* width: 100%; */
+  /* height: 2.5rem;   */
+}
+
+.banner {
+  height: 500px;
+  width: 100%;
+  background: #999;
+  margin: 20px 0px;
+}
+
+.content {
+  margin-top: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+}
+
+
+
+.gridrow{
+  margin-top: 1.3rem;
+}
+
+.tile-text {
+  position: absolute;
+  z-index: 1;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: white;
+  align-content: center;
+  text-align: center;
+  
+}
+
+
+
+
+
+.hero-input {
+  width: 80%;
+  height: 50px;
+  padding: 16px;
+  border-radius: 8px;
+  border: none;
+}
+
+.nav-link {
+  margin-right: 36px;
+}
+
+
+.adventure-card {
+  display : flex;
+  flex-direction: row;
+}
+
+
+.card-text {
+  height:15%;
+  border: 1px;
+  display: flex;
+  flex-direction: row;
+  padding-left: 10px;
+  padding-right: 10px;
+  justify-content: space-between;
+  align-items: center;
+ 
+  border-radius: 0px 0px  5px 5px;
+  border-style: solid;
+  border-color: #d9d9d9;
+}
+
+.adventure-card img {
+ 
+  width:100%;
+  height: 80%;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.adventure-card img:hover {
+
+  filter:brightness(60%);
+  transform: scale(1.005,1.005);
+}
+
+
+
+.adventure-detail-card {
+  border: 0.8px;
+  border-color: #ebebeb;
+  border-radius: 5px;
+  border-style: solid;
+  padding: 1vh 2vh 2vh 2vh;
+   
+}
+
+.adventure-card-image {
+  height:100%;
+  width:100%;
+  padding-top: 2vh;
+}
+.adventure-card-image:hover {
+ 
+  filter: brightness(70%);
+}
+
+@media only screen and (min-width: 768px) {
+
+  #reservation {
+    width: 400px;
+    position: fixed;
+    
+  }
+  .adventure-detail-card{
+    margin-top: 2vh;
+  }
+}
+
+@media (max-width: 767.98px)
+ { 
+    .adventure-detail-card{
+      margin-top: 5%;
+    }
+ }
+
+@media only screen and (max-width: 460px) {
+  .card-text h6{
+    font-size: 0.9rem;
+  }
+}
+
+@media only screen and (max-width: 410px) {
+  .tile-text h5{
+    font-size: 1rem;
+  }
+ 
+  .card-text{
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+  }
+  .card-text{height:auto;}
+
+}
+
+@media only screen and (max-width: 350px) {
+  .tile-text h5{
+    font-size: 0.8rem;
+  }
+  .adventure-card img {
+     height: 50%;
+   } 
+  
+}
+
+
+
+
+
+
+
+
