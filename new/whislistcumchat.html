@@ -83,10 +83,28 @@
            <div class = "adventure-detail-card ">
               
                 <div class = "mt-3 card-text">
-                   <h2>Wishlist1</h2>
-                   <p style = "color: #b3b3b3 ; font-size: large;">Add more people</p>
-                   
+                   <h3>Wishlist1</h3>&nbsp;&nbsp;
+                   <input id="add" placeholder="enter the email of the user" class="hero-input nav-item"><button id="hide" class="btn btn-warning btn-sm" onclick="myfun()">Submit</button></input>
+                   &nbsp;&nbsp; 
+                   <button id="show" class="btn btn-danger btn-sm">Invite </button>
                 </div>
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("#hide").click(function(){
+    $("#add").hide();
+    $("#hide").hide();
+  });
+  $("#show").click(function(){
+    $("#add").show();
+    $("#hide").show();
+  });
+});
+function myfun(){
+  alert("Invite has been send to the user");
+}
+
+</script>
                 <hr>
                 <div class="container">
                     <div class="content">
@@ -131,12 +149,12 @@
                          <span class="like"><i class="fa fa-thumbs-down">2</i></span>
                        </div>
                        <div class="card-text " style="border-top:none; padding-bottom: 5px;" >
-                          <button type="button" class="btn btn-warning btn-sm btn-block">Add to Wishlist</button>
+                        <button type="button" class="btn btn-warning btn-sm ">Add to Wishlist</button>
+                        <button type="button" class="btn btn-warning btn-sm ">Add to Cart</button>
                        </div>
                       </div>
                    </div>
                 </div>
-                
                 
                 <div class = "col-6 mb-1 adventure-card">
                   <div>
@@ -148,12 +166,12 @@
                          <span class="like"><i class="fa fa-thumbs-down">3</i></span>
                        </div>
                        <div class="card-text " style="border-top:none; padding-bottom: 5px;" >
-                          <button type="button" class="btn btn-warning btn-sm btn-block">Add to Wishlist</button>
+                        <button type="button" class="btn btn-warning btn-sm ">Add to Wishlist</button>
+                        <button type="button" class="btn btn-warning btn-sm ">Add to Cart</button>
                        </div>
                       </div>
                    </div>
                 </div>
-                
                 
                 <div class = "col-6 mb-1 adventure-card">
                   <div>
@@ -165,12 +183,96 @@
                          <span class="like"><i class="fa fa-thumbs-up">3</i></span>
                        </div>
                        <div class="card-text " style="border-top:none; padding-bottom: 5px;" >
-                          <button type="button" class="btn btn-warning btn-sm btn-block">Add to Wishlist</button>
+                        <button type="button" class="btn btn-warning btn-sm ">Add to Wishlist</button>
+                        <button type="button" class="btn btn-warning btn-sm ">Add to Cart</button>
                        </div>
                       </div>
                    </div>
                 </div>
                 
+                <div class = "col-6 mb-1 adventure-card">
+                  <div>
+                     <img class="img-fluid" src="Assests/i5.webp">
+                     <div>
+                       <div class="card-text" style="border-bottom:none; border-bottom-left-radius: 0%; border-bottom-right-radius: 0%;" >
+                         <h6>Atheena</h6>
+                         <h6>rs 1500</h6>
+                         <h6><i class="fa fa-thumbs-down">2</i></h6>
+                       </div>
+                       <div class="card-text " style="border-top:none; padding-bottom: 5px;" >
+                        <button type="button" class="btn btn-warning btn-sm ">Add to Wishlist</button>
+                        <button type="button" class="btn btn-warning btn-sm ">Add to Cart</button>
+                       </div>
+                      </div>
+                   </div>
+                </div>
+                
+                <div class = "col-6  mb-1 adventure-card">
+                  <div>
+                     <img class="img-fluid" src="Assests/i6.webp">
+                     <div>
+                       <div class="card-text" style="border-bottom:none; border-bottom-left-radius: 0%; border-bottom-right-radius: 0%;" >
+                         <h6>Atheena</h6>
+                         <h6>rs 1500</h6>
+                         <h6><i class="fa fa-thumbs-up">4</i></h6>
+                       </div>
+                       <div class="card-text " style="border-top:none; padding-bottom: 5px;" >
+                        <button type="button" class="btn btn-warning btn-sm ">Add to Wishlist</button>
+                        <button type="button" class="btn btn-warning btn-sm ">Add to Cart</button>
+                       </div>
+                      </div>
+                   </div>
+                </div>
+                
+                <div class = "col-6  mb-1 adventure-card">
+                  <div>
+                     <img class="img-fluid" src="Assests/i7.webp">
+                     <div>
+                       <div class="card-text" style="border-bottom:none; border-bottom-left-radius: 0%; border-bottom-right-radius: 0%;" >
+                         <h6>Atheena</h6>
+                         <h6>rs 1500</h6>
+                         <h6><i class="fa fa-heart-o fa-lg "></i></h6>
+                       </div>
+                       <div class="card-text " style="border-top:none; padding-bottom: 5px;" >
+                        <button type="button" class="btn btn-warning btn-sm ">Add to Wishlist</button>
+                        <button type="button" class="btn btn-warning btn-sm ">Add to Cart</button>
+                       </div>
+                      </div>
+                   </div>
+                </div>
+                
+                <div class = "col-6  mb-1 adventure-card">
+                  <div>
+                     <img class="img-fluid" src="Assests/i8.webp">
+                     <div>
+                       <div class="card-text" style="border-bottom:none; border-bottom-left-radius: 0%; border-bottom-right-radius: 0%;" >
+                         <h6>Atheena</h6>
+                         <h6>rs 1500</h6>
+                         <h6><i class="fa fa-heart-o fa-lg "></i></h6>
+                       </div>
+                       <div class="card-text " style="border-top:none; padding-bottom: 5px;" >
+                        <button type="button" class="btn btn-warning btn-sm ">Add to Wishlist</button>
+                        <button type="button" class="btn btn-warning btn-sm ">Add to Cart</button>
+                       </div>
+                      </div>
+                   </div>
+                </div>
+                
+                <div class = "col-6  mb-1 adventure-card">
+                  <div>
+                     <img class="img-fluid" src="Assests/i9.webp">
+                     <div>
+                       <div class="card-text" style="border-bottom:none; border-bottom-left-radius: 0%; border-bottom-right-radius: 0%;" >
+                         <h6>Atheena</h6>
+                         <h6>rs 1500</h6>
+                         <h6><i class="fa fa-heart-o fa-lg "></i></h6>
+                       </div>
+                       <div class="card-text " style="border-top:none; padding-bottom: 5px;" >
+                          <button type="button" class="btn btn-warning btn-sm btn-block">Add to Wishlist</button>
+                       </div>
+                      </div>
+                   </div>
+                </div>
                 
                 <div class = "col-6 mb-1 adventure-card">
                   <div>
@@ -188,178 +290,7 @@
                    </div>
                 </div>
                 
-                
-                <div class = "col-6  mb-1 adventure-card">
-                  <div>
-                     <img class="img-fluid" src="Assests/i1.webp">
-                     <div>
-                       <div class="card-text" style="border-bottom:none; border-bottom-left-radius: 0%; border-bottom-right-radius: 0%;" >
-                         <h6>Atheena</h6>
-                         <h6>rs 1500</h6>
-                         <h6><i class="fa fa-heart-o fa-lg "></i></h6>
-                       </div>
-                       <div class="card-text " style="border-top:none; padding-bottom: 5px;" >
-                          <button type="button" class="btn btn-warning btn-sm btn-block">Add to Wishlist</button>
-                       </div>
-                      </div>
-                   </div>
-                </div>
-                
-                
-                <div class = "col-6  mb-1 adventure-card">
-                  <div>
-                     <img class="img-fluid" src="Assests/i1.webp">
-                     <div>
-                       <div class="card-text" style="border-bottom:none; border-bottom-left-radius: 0%; border-bottom-right-radius: 0%;" >
-                         <h6>Atheena</h6>
-                         <h6>rs 1500</h6>
-                         <h6><i class="fa fa-heart-o fa-lg "></i></h6>
-                       </div>
-                       <div class="card-text " style="border-top:none; padding-bottom: 5px;" >
-                          <button type="button" class="btn btn-warning btn-sm btn-block">Add to Wishlist</button>
-                       </div>
-                      </div>
-                   </div>
-                </div>
-                
-                
-                <div class = "col-6  mb-1 adventure-card">
-                  <div>
-                     <img class="img-fluid" src="Assests/i1.webp">
-                     <div>
-                       <div class="card-text" style="border-bottom:none; border-bottom-left-radius: 0%; border-bottom-right-radius: 0%;" >
-                         <h6>Atheena</h6>
-                         <h6>rs 1500</h6>
-                         <h6><i class="fa fa-heart-o fa-lg "></i></h6>
-                       </div>
-                       <div class="card-text " style="border-top:none; padding-bottom: 5px;" >
-                          <button type="button" class="btn btn-warning btn-sm btn-block">Add to Wishlist</button>
-                       </div>
-                      </div>
-                   </div>
-                </div>
-                
-                
-                <div class = "col-6  mb-1 adventure-card">
-                  <div>
-                     <img class="img-fluid" src="Assests/i1.webp">
-                     <div>
-                       <div class="card-text" style="border-bottom:none; border-bottom-left-radius: 0%; border-bottom-right-radius: 0%;" >
-                         <h6>Atheena</h6>
-                         <h6>rs 1500</h6>
-                         <h6><i class="fa fa-heart-o fa-lg "></i></h6>
-                       </div>
-                       <div class="card-text " style="border-top:none; padding-bottom: 5px;" >
-                          <button type="button" class="btn btn-warning btn-sm btn-block">Add to Wishlist</button>
-                       </div>
-                      </div>
-                   </div>
-                </div>
-                
-                
-                <div class = "col-6 mb-1 adventure-card">
-                  <div>
-                     <img class="img-fluid" src="Assests/i1.webp">
-                     <div>
-                       <div class="card-text" style="border-bottom:none; border-bottom-left-radius: 0%; border-bottom-right-radius: 0%;" >
-                         <h6>Atheena</h6>
-                         <h6>rs 1500</h6>
-                         <h6><i class="fa fa-heart-o fa-lg "></i></h6>
-                       </div>
-                       <div class="card-text " style="border-top:none; padding-bottom: 5px;" >
-                          <button type="button" class="btn btn-warning btn-sm btn-block">Add to Wishlist</button>
-                       </div>
-                      </div>
-                   </div>
-                </div>
-                
-                
-                <div class = "col-6 mb-1 adventure-card">
-                  <div>
-                     <img class="img-fluid" src="Assests/i1.webp">
-                     <div>
-                       <div class="card-text" style="border-bottom:none; border-bottom-left-radius: 0%; border-bottom-right-radius: 0%;" >
-                         <h6>Atheena</h6>
-                         <h6>rs 1500</h6>
-                         <h6><i class="fa fa-heart-o fa-lg "></i></h6>
-                       </div>
-                       <div class="card-text " style="border-top:none; padding-bottom: 5px;" >
-                          <button type="button" class="btn btn-warning btn-sm btn-block">Add to Wishlist</button>
-                       </div>
-                      </div>
-                   </div>
-                </div>
-                
-                
-                <div class = "col-6  mb-1 adventure-card">
-                  <div>
-                     <img class="img-fluid" src="Assests/i1.webp">
-                     <div>
-                       <div class="card-text" style="border-bottom:none; border-bottom-left-radius: 0%; border-bottom-right-radius: 0%;" >
-                         <h6>Atheena</h6>
-                         <h6>rs 1500</h6>
-                         <h6><i class="fa fa-heart-o fa-lg "></i></h6>
-                       </div>
-                       <div class="card-text " style="border-top:none; padding-bottom: 5px;" >
-                          <button type="button" class="btn btn-warning btn-sm btn-block">Add to Wishlist</button>
-                       </div>
-                      </div>
-                   </div>
-                </div>
-                
-                
-                <div class = "col-6  mb-1 adventure-card">
-                  <div>
-                     <img class="img-fluid" src="Assests/i1.webp">
-                     <div>
-                       <div class="card-text" style="border-bottom:none; border-bottom-left-radius: 0%; border-bottom-right-radius: 0%;" >
-                         <h6>Atheena</h6>
-                         <h6>rs 1500</h6>
-                         <h6><i class="fa fa-heart-o fa-lg "></i></h6>
-                       </div>
-                       <div class="card-text " style="border-top:none; padding-bottom: 5px;" >
-                          <button type="button" class="btn btn-warning btn-sm btn-block">Add to Wishlist</button>
-                          <button type="button" class="btn btn-warning btn-sm btn-block">Add to Wishlist</button>
-                       </div>
-                      </div>
-                   </div>
-                </div>
-                
-                
-                
-                <div class = "col-6 cmb-1 adventure-card">
-                  <div>
-                     <img class="img-fluid" src="Assests/i1.webp">
-                     <div>
-                       <div class="card-text" style="border-bottom:none; border-bottom-left-radius: 0%; border-bottom-right-radius: 0%;" >
-                         <h6>Atheena</h6>
-                         <h6>rs 1500</h6>
-                         <h6><i class="fa fa-heart-o fa-lg "></i></h6>
-                       </div>
-                       <div class="card-text " style="border-top:none; padding-bottom: 5px;" >
-                          <button type="button" class="btn btn-warning btn-sm btn-block">Add to Wishlist</button>
-                       </div>
-                      </div>
-                   </div>
-                </div>
-                
-                
-                <div class = "col-6 mb-1 adventure-card">
-                  <div>
-                     <img class="img-fluid" src="Assests/i1.webp">
-                     <div>
-                       <div class="card-text" style="border-bottom:none; border-bottom-left-radius: 0%; border-bottom-right-radius: 0%;" >
-                         <h6>Atheena</h6>
-                         <h6>rs 1500</h6>
-                         <h6><i class="fa fa-heart-o fa-lg "></i></h6>
-                       </div>
-                       <div class="card-text " style="border-top:none; padding-bottom: 5px;" >
-                          <button type="button" class="btn btn-warning btn-sm btn-block">Add to Wishlist</button>
-                       </div>
-                      </div>
-                   </div>
-                </div>
-                
+               
                 
                 <div class = "col-6 mb-1 adventure-card">
                   <div>
@@ -376,8 +307,6 @@
                       </div>
                    </div>
                 </div>
-                
-                
                 <div class = "col-6 mb-1 adventure-card">
                   <div>
                      <img class="img-fluid" src="Assests/i1.webp">
@@ -393,11 +322,6 @@
                       </div>
                    </div>
                 </div>
-                
-                
-                
-                
-                
                 <script>
                   $(document).ready(function(){
                     $("i").click(function(){
@@ -405,7 +329,7 @@
                       $("i").toggleClass("fa fa-heart");
                     });
                   });
-                  </script>
+                </script>
                 
                 
                 
@@ -418,683 +342,145 @@
            </div>
         </div>
 
-        <div class = "col-md-4 ">
+          <div class = "col-md-4 ">
             <div class = "adventure-detail-card">
                   <h3 class = "pt-2">Chat Box</h3>
                   <hr>
-                  <p>Here You Can Discuss about your items <a href="/pages/adventures/index.html"><span style="color: coral;">Happy Shopping</span></a> </p>
+                  <p>Here You Can Discuss about your items</p>
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                     People
+                    </button>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#">Sushi</a>
+                      <a class="dropdown-item" href="#">Deeps</a>
+                      <a class="dropdown-item" href="#">Aadi</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">You</a>
+                    </div>
+                  </div>
                    <hr>
 
-                   <div class= "subChatBox" style=" background-color: violet; overflow: auto; white-space: nowrap;">
-                    <div class = "suchChatBoxItem" style="display: inline-block; color:whitesmoke;">
-                         <div class = "suchChatBoxItem" style="display: inline-block; ">
-                             <img class="img-fluid" src="Assests/i1.webp"  style="height:175px; width:175px;">
-                              <div class="card-text" style=" height:15%;
-                              border: 1px;
-                              display: flex;
-                              flex-direction: row;
-                              padding-left: 10px;
-                              padding-right: 10px;
-                              justify-content: space-between;
-                              align-items: center;
-                              background-color: violet;
-                             
-                              border-radius: 0px 0px  5px 5px;
-                              border-style: solid;
-                              border-color: #d9d9d9;">
-                                  <h6>Atheena</h6>
-                                  <h6>rs 1500</h6>
-                              </div>
-                         </div>
-                         <div class = "suchChatBoxItem" style="display: inline-block; ">
-                             <img class="img-fluid" src="Assests/i1.webp"  style="height:175px; width:175px;">
-                              <div class="card-text" style=" height:15%;
-                              border: 1px;
-                              display: flex;
-                              flex-direction: row;
-                              padding-left: 10px;
-                              padding-right: 10px;
-                              justify-content: space-between;
-                              align-items: center;
-                              background-color: violet;
-                             
-                              border-radius: 0px 0px  5px 5px;
-                              border-style: solid;
-                              border-color: #d9d9d9;">
-                                  <h6>Atheena</h6>
-                                  <h6>rs 1500</h6>
-                              </div>
-                         </div>
-                         <div class = "suchChatBoxItem" style="display: inline-block; ">
-                             <img class="img-fluid" src="Assests/i1.webp"  style="height:175px; width:175px;">
-                              <div class="card-text" style=" height:15%;
-                              border: 1px;
-                              display: flex;
-                              flex-direction: row;
-                              padding-left: 10px;
-                              padding-right: 10px;
-                              justify-content: space-between;
-                              align-items: center;
-                              background-color: violet;
-                             
-                              border-radius: 0px 0px  5px 5px;
-                              border-style: solid;
-                              border-color: #d9d9d9;">
-                                  <h6>Atheena</h6>
-                                  <h6>rs 1500</h6>
-                              </div>
-                         </div>
-                         <div class = "suchChatBoxItem" style="display: inline-block; ">
-                             <img class="img-fluid" src="Assests/i1.webp"  style="height:175px; width:175px;">
-                              <div class="card-text" style=" height:15%;
-                              border: 1px;
-                              display: flex;
-                              flex-direction: row;
-                              padding-left: 10px;
-                              padding-right: 10px;
-                              justify-content: space-between;
-                              align-items: center;
-                              background-color: violet;
-                             
-                              border-radius: 0px 0px  5px 5px;
-                              border-style: solid;
-                              border-color: #d9d9d9;">
-                                  <h6>Atheena</h6>
-                                  <h6>rs 1500</h6>
-                              </div>
-                         </div>
-                         <div class = "suchChatBoxItem" style="display: inline-block; ">
-                             <img class="img-fluid" src="Assests/i1.webp"  style="height:175px; width:175px;">
-                              <div class="card-text" style=" height:15%;
-                              border: 1px;
-                              display: flex;
-                              flex-direction: row;
-                              padding-left: 10px;
-                              padding-right: 10px;
-                              justify-content: space-between;
-                              align-items: center;
-                              background-color: violet;
-                             
-                              border-radius: 0px 0px  5px 5px;
-                              border-style: solid;
-                              border-color: #d9d9d9;">
-                                  <h6>Atheena</h6>
-                                  <h6>rs 1500</h6>
-                              </div>
-                         </div>
-                         <div class = "suchChatBoxItem" style="display: inline-block; ">
-                             <img class="img-fluid" src="Assests/i1.webp"  style="height:175px; width:175px;">
-                              <div class="card-text" style=" height:15%;
-                              border: 1px;
-                              display: flex;
-                              flex-direction: row;
-                              padding-left: 10px;
-                              padding-right: 10px;
-                              justify-content: space-between;
-                              align-items: center;
-                              background-color: violet;
-                             
-                              border-radius: 0px 0px  5px 5px;
-                              border-style: solid;
-                              border-color: #d9d9d9;">
-                                  <h6>Atheena</h6>
-                                  <h6>rs 1500</h6>
-                              </div>
-                         </div> <div class = "suchChatBoxItem" style="display: inline-block; ">
-                             <img class="img-fluid" src="Assests/i1.webp"  style="height:175px; width:175px;">
-                              <div class="card-text" style=" height:15%;
-                              border: 1px;
-                              display: flex;
-                              flex-direction: row;
-                              padding-left: 10px;
-                              padding-right: 10px;
-                              justify-content: space-between;
-                              align-items: center;
-                              background-color: violet;
-                             
-                              border-radius: 0px 0px  5px 5px;
-                              border-style: solid;
-                              border-color: #d9d9d9;">
-                                  <h6>Atheena</h6>
-                                  <h6>rs 1500</h6>
-                              </div>
-                         </div> <div class = "suchChatBoxItem" style="display: inline-block; ">
-                             <img class="img-fluid" src="Assests/i1.webp"  style="height:175px; width:175px;">
-                              <div class="card-text" style=" height:15%;
-                              border: 1px;
-                              display: flex;
-                              flex-direction: row;
-                              padding-left: 10px;
-                              padding-right: 10px;
-                              justify-content: space-between;
-                              align-items: center;
-                              background-color: violet;
-                             
-                              border-radius: 0px 0px  5px 5px;
-                              border-style: solid;
-                              border-color: #d9d9d9;">
-                                  <h6>Atheena</h6>
-                                  <h6>rs 1500</h6>
-                              </div>
-                         </div>
-                         <div class = "suchChatBoxItem" style="display: inline-block; ">
-                             <img class="img-fluid" src="Assests/i1.webp"  style="height:175px; width:175px;">
-                              <div class="card-text" style=" height:15%;
-                              border: 1px;
-                              display: flex;
-                              flex-direction: row;
-                              padding-left: 10px;
-                              padding-right: 10px;
-                              justify-content: space-between;
-                              align-items: center;
-                              background-color: violet;
-                             
-                              border-radius: 0px 0px  5px 5px;
-                              border-style: solid;
-                              border-color: #d9d9d9;">
-                                  <h6>Atheena</h6>
-                                  <h6>rs 1500</h6>
-                              </div>
-                         </div>
-                         <div class = "suchChatBoxItem" style="display: inline-block; ">
-                             <img class="img-fluid" src="Assests/i1.webp"  style="height:175px; width:175px;">
-                              <div class="card-text" style=" height:15%;
-                              border: 1px;
-                              display: flex;
-                              flex-direction: row;
-                              padding-left: 10px;
-                              padding-right: 10px;
-                              justify-content: space-between;
-                              align-items: center;
-                              background-color: violet;
-                             
-                              border-radius: 0px 0px  5px 5px;
-                              border-style: solid;
-                              border-color: #d9d9d9;">
-                                  <h6>Atheena</h6>
-                                  <h6>rs 1500</h6>
-                              </div>
-                         </div>
-                         <div class = "suchChatBoxItem" style="display: inline-block; ">
-                             <img class="img-fluid" src="Assests/i1.webp"  style="height:175px; width:175px;">
-                              <div class="card-text" style=" height:15%;
-                              border: 1px;
-                              display: flex;
-                              flex-direction: row;
-                              padding-left: 10px;
-                              padding-right: 10px;
-                              justify-content: space-between;
-                              align-items: center;
-                              background-color: violet;
-                             
-                              border-radius: 0px 0px  5px 5px;
-                              border-style: solid;
-                              border-color: #d9d9d9;">
-                                  <h6>Atheena</h6>
-                                  <h6>rs 1500</h6>
-                              </div>
-                         </div>
-                         <div class = "suchChatBoxItem" style="display: inline-block; ">
-                             <img class="img-fluid" src="Assests/i1.webp"  style="height:175px; width:175px;">
-                              <div class="card-text" style=" height:15%;
-                              border: 1px;
-                              display: flex;
-                              flex-direction: row;
-                              padding-left: 10px;
-                              padding-right: 10px;
-                              justify-content: space-between;
-                              align-items: center;
-                              background-color: violet;
-                             
-                              border-radius: 0px 0px  5px 5px;
-                              border-style: solid;
-                              border-color: #d9d9d9;">
-                                  <h6>Atheena</h6>
-                                  <h6>rs 1500</h6>
-                              </div>
-                         </div>
-                         <div class = "suchChatBoxItem" style="display: inline-block; ">
-                             <img class="img-fluid" src="Assests/i1.webp"  style="height:175px; width:175px;">
-                              <div class="card-text" style=" height:15%;
-                              border: 1px;
-                              display: flex;
-                              flex-direction: row;
-                              padding-left: 10px;
-                              padding-right: 10px;
-                              justify-content: space-between;
-                              align-items: center;
-                              background-color: violet;
-                             
-                              border-radius: 0px 0px  5px 5px;
-                              border-style: solid;
-                              border-color: #d9d9d9;">
-                                  <h6>Atheena</h6>
-                                  <h6>rs 1500</h6>
-                              </div>
-                         </div>
-                         <div class = "suchChatBoxItem" style="display: inline-block; ">
-                             <img class="img-fluid" src="Assests/i1.webp"  style="height:175px; width:175px;">
-                              <div class="card-text" style=" height:15%;
-                              border: 1px;
-                              display: flex;
-                              flex-direction: row;
-                              padding-left: 10px;
-                              padding-right: 10px;
-                              justify-content: space-between;
-                              align-items: center;
-                              background-color: violet;
-                             
-                              border-radius: 0px 0px  5px 5px;
-                              border-style: solid;
-                              border-color: #d9d9d9;">
-                                  <h6>Atheena</h6>
-                                  <h6>rs 1500</h6>
-                              </div>
-                         </div>
-                         <div class = "suchChatBoxItem" style="display: inline-block; ">
-                             <img class="img-fluid" src="Assests/i1.webp"  style="height:175px; width:175px;">
-                              <div class="card-text" style=" height:15%;
-                              border: 1px;
-                              display: flex;
-                              flex-direction: row;
-                              padding-left: 10px;
-                              padding-right: 10px;
-                              justify-content: space-between;
-                              align-items: center;
-                              background-color: violet;
-                             
-                              border-radius: 0px 0px  5px 5px;
-                              border-style: solid;
-                              border-color: #d9d9d9;">
-                                  <h6>Atheena</h6>
-                                  <h6>rs 1500</h6>
-                              </div>
-                         </div>
-                         <div class = "suchChatBoxItem" style="display: inline-block; ">
-                             <img class="img-fluid" src="Assests/i1.webp"  style="height:175px; width:175px;">
-                              <div class="card-text" style=" height:15%;
-                              border: 1px;
-                              display: flex;
-                              flex-direction: row;
-                              padding-left: 10px;
-                              padding-right: 10px;
-                              justify-content: space-between;
-                              align-items: center;
-                              background-color: violet;
-                             
-                              border-radius: 0px 0px  5px 5px;
-                              border-style: solid;
-                              border-color: #d9d9d9;">
-                                  <h6>Atheena</h6>
-                                  <h6>rs 1500</h6>
-                              </div>
-                         </div>
-                         <div class = "suchChatBoxItem" style="display: inline-block; ">
-                             <img class="img-fluid" src="Assests/i1.webp"  style="height:175px; width:175px;">
-                              <div class="card-text" style=" height:15%;
-                              border: 1px;
-                              display: flex;
-                              flex-direction: row;
-                              padding-left: 10px;
-                              padding-right: 10px;
-                              justify-content: space-between;
-                              align-items: center;
-                              background-color: violet;
-                             
-                              border-radius: 0px 0px  5px 5px;
-                              border-style: solid;
-                              border-color: #d9d9d9;">
-                                  <h6>Atheena</h6>
-                                  <h6>rs 1500</h6>
-                              </div>
-                         </div>
-                         <div class = "suchChatBoxItem" style="display: inline-block; ">
-                             <img class="img-fluid" src="Assests/i1.webp"  style="height:175px; width:175px;">
-                              <div class="card-text" style=" height:15%;
-                              border: 1px;
-                              display: flex;
-                              flex-direction: row;
-                              padding-left: 10px;
-                              padding-right: 10px;
-                              justify-content: space-between;
-                              align-items: center;
-                              background-color: violet;
-                             
-                              border-radius: 0px 0px  5px 5px;
-                              border-style: solid;
-                              border-color: #d9d9d9;">
-                                  <h6>Atheena</h6>
-                                  <h6>rs 1500</h6>
-                              </div>
-                         </div>
-                         <div class = "suchChatBoxItem" style="display: inline-block; ">
-                             <img class="img-fluid" src="Assests/i1.webp"  style="height:175px; width:175px;">
-                              <div class="card-text" style=" height:15%;
-                              border: 1px;
-                              display: flex;
-                              flex-direction: row;
-                              padding-left: 10px;
-                              padding-right: 10px;
-                              justify-content: space-between;
-                              align-items: center;
-                              background-color: violet;
-                             
-                              border-radius: 0px 0px  5px 5px;
-                              border-style: solid;
-                              border-color: #d9d9d9;">
-                                  <h6>Atheena</h6>
-                                  <h6>rs 1500</h6>
-                              </div>
-                         </div>
-                         <div class = "suchChatBoxItem" style="display: inline-block; ">
-                             <img class="img-fluid" src="Assests/i1.webp"  style="height:175px; width:175px;">
-                              <div class="card-text" style=" height:15%;
-                              border: 1px;
-                              display: flex;
-                              flex-direction: row;
-                              padding-left: 10px;
-                              padding-right: 10px;
-                              justify-content: space-between;
-                              align-items: center;
-                              background-color: violet;
-                             
-                              border-radius: 0px 0px  5px 5px;
-                              border-style: solid;
-                              border-color: #d9d9d9;">
-                                  <h6>Atheena</h6>
-                                  <h6>rs 1500</h6>
-                              </div>
-                         </div>
-                         <div class = "suchChatBoxItem" style="display: inline-block; ">
-                             <img class="img-fluid" src="Assests/i1.webp"  style="height:175px; width:175px;">
-                              <div class="card-text" style=" height:15%;
-                              border: 1px;
-                              display: flex;
-                              flex-direction: row;
-                              padding-left: 10px;
-                              padding-right: 10px;
-                              justify-content: space-between;
-                              align-items: center;
-                              background-color: violet;
-                             
-                              border-radius: 0px 0px  5px 5px;
-                              border-style: solid;
-                              border-color: #d9d9d9;">
-                                  <h6>Atheena</h6>
-                                  <h6>rs 1500</h6>
-                              </div>
-                         </div>
-                         <div class = "suchChatBoxItem" style="display: inline-block; ">
-                             <img class="img-fluid" src="Assests/i1.webp"  style="height:175px; width:175px;">
-                              <div class="card-text" style=" height:15%;
-                              border: 1px;
-                              display: flex;
-                              flex-direction: row;
-                              padding-left: 10px;
-                              padding-right: 10px;
-                              justify-content: space-between;
-                              align-items: center;
-                              background-color: violet;
-                             
-                              border-radius: 0px 0px  5px 5px;
-                              border-style: solid;
-                              border-color: #d9d9d9;">
-                                  <h6>Atheena</h6>
-                                  <h6>rs 1500</h6>
-                              </div>
-                         </div>
-                         <div class = "suchChatBoxItem" style="display: inline-block; ">
-                             <img class="img-fluid" src="Assests/i1.webp"  style="height:175px; width:175px;">
-                              <div class="card-text" style=" height:15%;
-                              border: 1px;
-                              display: flex;
-                              flex-direction: row;
-                              padding-left: 10px;
-                              padding-right: 10px;
-                              justify-content: space-between;
-                              align-items: center;
-                              background-color: violet;
-                             
-                              border-radius: 0px 0px  5px 5px;
-                              border-style: solid;
-                              border-color: #d9d9d9;">
-                                  <h6>Atheena</h6>
-                                  <h6>rs 1500</h6>
-                              </div>
-                         </div>
-                         <div class = "suchChatBoxItem" style="display: inline-block; ">
-                             <img class="img-fluid" src="Assests/i1.webp"  style="height:175px; width:175px;">
-                              <div class="card-text" style=" height:15%;
-                              border: 1px;
-                              display: flex;
-                              flex-direction: row;
-                              padding-left: 10px;
-                              padding-right: 10px;
-                              justify-content: space-between;
-                              align-items: center;
-                              background-color: violet;
-                             
-                              border-radius: 0px 0px  5px 5px;
-                              border-style: solid;
-                              border-color: #d9d9d9;">
-                                  <h6>Atheena</h6>
-                                  <h6>rs 1500</h6>
-                              </div>
-                         </div>
-                         <div class = "suchChatBoxItem" style="display: inline-block; ">
-                             <img class="img-fluid" src="Assests/i1.webp"  style="height:175px; width:175px;">
-                              <div class="card-text" style=" height:15%;
-                              border: 1px;
-                              display: flex;
-                              flex-direction: row;
-                              padding-left: 10px;
-                              padding-right: 10px;
-                              justify-content: space-between;
-                              align-items: center;
-                              background-color: violet;
-                             
-                              border-radius: 0px 0px  5px 5px;
-                              border-style: solid;
-                              border-color: #d9d9d9;">
-                                  <h6>Atheena</h6>
-                                  <h6>rs 1500</h6>
-                              </div>
-                         </div>
-                         <div class = "suchChatBoxItem" style="display: inline-block; ">
-                             <img class="img-fluid" src="Assests/i1.webp"  style="height:175px; width:175px;">
-                              <div class="card-text" style=" height:15%;
-                              border: 1px;
-                              display: flex;
-                              flex-direction: row;
-                              padding-left: 10px;
-                              padding-right: 10px;
-                              justify-content: space-between;
-                              align-items: center;
-                              background-color: violet;
-                             
-                              border-radius: 0px 0px  5px 5px;
-                              border-style: solid;
-                              border-color: #d9d9d9;">
-                                  <h6>Atheena</h6>
-                                  <h6>rs 1500</h6>
-                              </div>
-                         </div>
-                         <div class = "suchChatBoxItem" style="display: inline-block; ">
-                             <img class="img-fluid" src="Assests/i1.webp"  style="height:175px; width:175px;">
-                              <div class="card-text" style=" height:15%;
-                              border: 1px;
-                              display: flex;
-                              flex-direction: row;
-                              padding-left: 10px;
-                              padding-right: 10px;
-                              justify-content: space-between;
-                              align-items: center;
-                              background-color: violet;
-                             
-                              border-radius: 0px 0px  5px 5px;
-                              border-style: solid;
-                              border-color: #d9d9d9;">
-                                  <h6>Atheena</h6>
-                                  <h6>rs 1500</h6>
-                              </div>
-                         </div>
-                         <div class = "suchChatBoxItem" style="display: inline-block; ">
-                             <img class="img-fluid" src="Assests/i1.webp"  style="height:175px; width:175px;">
-                              <div class="card-text" style=" height:15%;
-                              border: 1px;
-                              display: flex;
-                              flex-direction: row;
-                              padding-left: 10px;
-                              padding-right: 10px;
-                              justify-content: space-between;
-                              align-items: center;
-                              background-color: violet;
-                             
-                              border-radius: 0px 0px  5px 5px;
-                              border-style: solid;
-                              border-color: #d9d9d9;">
-                                  <h6>Atheena</h6>
-                                  <h6>rs 1500</h6>
-                              </div>
-                         </div>
-                         <div class = "suchChatBoxItem" style="display: inline-block; ">
-                             <img class="img-fluid" src="Assests/i1.webp"  style="height:175px; width:175px;">
-                              <div class="card-text" style=" height:15%;
-                              border: 1px;
-                              display: flex;
-                              flex-direction: row;
-                              padding-left: 10px;
-                              padding-right: 10px;
-                              justify-content: space-between;
-                              align-items: center;
-                              background-color: violet;
-                             
-                              border-radius: 0px 0px  5px 5px;
-                              border-style: solid;
-                              border-color: #d9d9d9;">
-                                  <h6>Atheena</h6>
-                                  <h6>rs 1500</h6>
-                              </div>
-                         </div>
-                         <div class = "suchChatBoxItem" style="display: inline-block; ">
-                             <img class="img-fluid" src="Assests/i1.webp"  style="height:175px; width:175px;">
-                              <div class="card-text" style=" height:15%;
-                              border: 1px;
-                              display: flex;
-                              flex-direction: row;
-                              padding-left: 10px;
-                              padding-right: 10px;
-                              justify-content: space-between;
-                              align-items: center;
-                              background-color: violet;
-                             
-                              border-radius: 0px 0px  5px 5px;
-                              border-style: solid;
-                              border-color: #d9d9d9;">
-                                  <h6>Atheena</h6>
-                                  <h6>rs 1500</h6>
-                              </div>
-                         </div>
-                         <div class = "suchChatBoxItem" style="display: inline-block; ">
-                             <img class="img-fluid" src="Assests/i1.webp"  style="height:175px; width:175px;">
-                              <div class="card-text" style=" height:15%;
-                              border: 1px;
-                              display: flex;
-                              flex-direction: row;
-                              padding-left: 10px;
-                              padding-right: 10px;
-                              justify-content: space-between;
-                              align-items: center;
-                              background-color: violet;
-                             
-                              border-radius: 0px 0px  5px 5px;
-                              border-style: solid;
-                              border-color: #d9d9d9;">
-                                  <h6>Atheena</h6>
-                                  <h6>rs 1500</h6>
-                              </div>
-                         </div>
-                         <div class = "suchChatBoxItem" style="display: inline-block; ">
-                             <img class="img-fluid" src="Assests/i1.webp"  style="height:175px; width:175px;">
-                              <div class="card-text" style=" height:15%;
-                              border: 1px;
-                              display: flex;
-                              flex-direction: row;
-                              padding-left: 10px;
-                              padding-right: 10px;
-                              justify-content: space-between;
-                              align-items: center;
-                              background-color: violet;
-                             
-                              border-radius: 0px 0px  5px 5px;
-                              border-style: solid;
-                              border-color: #d9d9d9;">
-                                  <h6>Atheena</h6>
-                                  <h6>rs 1500</h6>
-                              </div>
-                         </div>
-                     </div>
-                   
-                 </div>
-                  <div class="chatbox">
-                 
-                      
-               <div class="container8">
-    <img src="Assests/Avtar.jfif" alt="Avatar" style="width:100%;">
-    <p>Hello. How are you today?</p>
-    <span class="time-right">11:00</span>
+              <div class= "subChatBox" style=" background-color: whitesmoke; overflow: auto; white-space: nowrap;">
+                <div class = "suchChatBoxItem" style="display: inline-block; ">
+                  <img class="img-fluid"onclick="bigImg(this)" ondrag="normalImg(this)" src="Assests/i1.webp"  style="height:175px; width:175px;">
+                   <div class="card-text1">
+                       <h6>Roadestar</h6>
+                       <h6>₹ 1500</h6>
+                   </div>
                 </div>
+                  <div class = "suchChatBoxItem" style="display: inline-block; ">
+                    <img class="img-fluid"onclick="bigImg(this)" ondrag="normalImg(this)" src="Assests/i2.webp"  style="height:175px; width:175px;">
+                     <div class="card-text1">
+                         <h6>Roadestar</h6>
+                         <h6>₹ 1500</h6>
+                     </div>
+                  </div>
+                  <div class = "suchChatBoxItem" style="display: inline-block; ">
+                    <img class="img-fluid"onclick="bigImg(this)" ondrag="normalImg(this)" src="Assests/i3.webp"  style="height:175px; width:175px;">
+                     <div class="card-text1">
+                         <h6>Duke</h6>
+                         <h6>₹ 2500</h6>
+                     </div>
+                  </div>
+                  <div class = "suchChatBoxItem" style="display: inline-block; ">
+                    <img class="img-fluid"onclick="bigImg(this)" ondrag="normalImg(this)" src="Assests/i4.webp"  style="height:175px; width:175px;">
+                     <div class="card-text1">
+                         <h6>U.s. Polo</h6>
+                         <h6>₹ 3500</h6>
+                     </div>
+                  </div>
+                  <div class = "suchChatBoxItem" style="display: inline-block; ">
+                    <img class="img-fluid"onclick="bigImg(this)" ondrag="normalImg(this)" src="Assests/i5.webp"  style="height:175px; width:175px;">
+                     <div class="card-text1">
+                         <h6>Mochi</h6>
+                         <h6>₹ 1380</h6>
+                     </div>
+                  </div>
+                  <div class = "suchChatBoxItem" style="display: inline-block; ">
+                    <img class="img-fluid"onclick="bigImg(this)" ondrag="normalImg(this)" src="Assests/i6.webp"  style="height:175px; width:175px;">
+                     <div class="card-text1">
+                         <h6>Bata</h6>
+                         <h6>₹ 489</h6>
+                     </div>
+                  </div>
+                  <div class = "suchChatBoxItem" style="display: inline-block; ">
+                    <img class="img-fluid"onclick="bigImg(this)" ondrag="normalImg(this)" src="Assests/i7.webp"  style="height:175px; width:175px;">
+                     <div class="card-text1">
+                         <h6>khadims</h6>
+                         <h6>₹ 500</h6>
+                     </div>
+                  </div>
+              </div>
+              <script>
+                function bigImg(x) {
+                  
+                  x.style.height="auto";
+                }
+                
+                function normalImg(x) {
+                 
+                  x.style.height="175px";
+                }
+                </script>
+
+
+              <div class="chatbox">
+                  <div class="container8">
+                       <img src="Assests/Avtar.jfif" alt="Avatar" style="width:100%;">
+                       <p>Hello.I like this one , color is pretty good.</p>
+                       <span class="time-right">11:00</span>
+                  </div>
   
-               <div class="container8 darker8">
-    <img src="Assests/a2.png" alt="Avatar" class="right" style="width:100%;">
-    <p>Hey! I'm fine. Thanks for asking!</p>
-    <span class="time-left">11:01</span>
-               </div>
+                  <div class="container8 darker8">
+                     <img src="Assests/a2.png" alt="Avatar" class="right" style="width:100%;">
+                     <p>Hey! yepp..., but it is bit costly</p>
+                     <span class="time-left">11:01</span>
+                  </div>
   
-             <div class="container8">
-    <img src="Assests/Avtar.jfif" alt="Avatar" style="width:100%;">
-    <p>Sweet! So, what do you wanna do today?</p>
-    <span class="time-right">11:02</span>
-             </div>
+                  <div class="container8">
+                     <img src="Assests/Avtar.jfif" alt="Avatar" style="width:100%;">
+                     <p>It looks adorable , you should buy this</p>
+                     <span class="time-right">11:02</span>
+                  </div>
   
-            <div class="container8 darker8">
-    <img src="Assests/a2.png" alt="Avatar" class="right" style="width:100%;">
-    <p>Nah, I dunno. Play soccer.. or learn more coding perhaps?</p>
-    <span class="time-left">11:05</span>
-            </div>
+                  <div class="container8 darker8">
+                     <img src="Assests/a2.png" alt="Avatar" class="right" style="width:100%;">
+                     <p>GO.... for it</p>
+                     <span class="time-left">11:05</span>
+                  </div>
 
-        <button class="open-button" onclick="openForm()">Chat</button>
+                  <button class="open-button" onclick="openForm()">Chat</button>
+                  <div class="chat-popup" id="myForm">
+                        <form action="#" class="form-container">
+                          <h1>Chat</h1>
 
-       <div class="chat-popup" id="myForm">
-             <form action="#" class="form-container">
-              <h1>Chat</h1>
+                          <label for="msg"><b>Tell others about your suggestions</b></label>
+                          <textarea placeholder="Type message.." name="msg" required></textarea>
 
-              <label for="msg"><b>Tell others about your suggestions</b></label>
-              <textarea placeholder="Type message.." name="msg" required></textarea>
+                          <button type="submit" class="btn">Send</button>
+                          <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+                        </form>
+                  </div>
 
-             <button type="submit" class="btn">Send</button>
-             <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
-           </form>
-       </div>
-
-<script>
-function openForm() {
-  document.getElementById("myForm").style.display = "block";
-}
-
-function closeForm() {
-  document.getElementById("myForm").style.display = "none";
-}
-</script>
-        </div>
-        </div>  
-        </div>
+                  <script>
+                        function openForm() {
+                                             document.getElementById("myForm").style.display = "block";
+                                            }
+                    
+                        function closeForm() {
+                                               document.getElementById("myForm").style.display = "none";
+                                             }
+                  </script>
+              </div>
+            </div>  
+          </div>
      </div>
 </div>
 </div>
 
    <footer>
-      <div class="container">© QTrip 2020</div>
+      <div class="container">Myntra Syncronous Myntra HackerRamp</div>
    </footer>
    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"

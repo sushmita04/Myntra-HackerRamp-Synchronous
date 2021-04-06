@@ -393,3 +393,55 @@ cursor: pointer;
 .form-container .btn:hover, .open-button:hover {
   opacity: 1;
 }
+
+
+
+/* subchat __________container img text */
+
+.suchChatBox{
+  border: #4CAF50;
+  border:2px;
+
+}
+.card-text1{ 
+ 
+  border: 1px;
+  display: flex;
+  flex-direction: row;
+  padding-left: 10px;
+  padding-right: 10px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: violet;
+ 
+  border-radius: 0px 0px  5px 5px;
+  border-style: solid;
+  border-color: #d9d9d9;
+}
+.card-text1:hover{
+  background-color: blue;
+}
+
+/* scroll bar */
+
+/* width */
+::-webkit-scrollbar {
+  height: 5px;
+  width :10px;
+
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: purple; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
