@@ -296,14 +296,27 @@ cursor: pointer;
   color: #999;
 }
 
+.flike{
+  color: rgb(15, 34, 116);
 
+}
+.fnolike{
+  color: rgb(129, 224, 224);
+}
 
 
 .like .fa {
   font-size: 20px;
   cursor: pointer;
   user-select: none;
-  color: teal;
+  color: rgb(15, 34, 116);
+}
+.nolike .fa {
+  font-size: 20px;
+  cursor: pointer;
+  user-select: none;
+  color: rgb(129, 224, 224);
+  outline: blue;
 }
 
 .like .fa:hover {
@@ -419,14 +432,22 @@ cursor: pointer;
   border-color: #d9d9d9;
 }
 .card-text1:hover{
-  background-color: blue;
+  background-color: rgb(108, 179, 245);
+}
+.mystyle {
+  border: 1px outset blue;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background-color: lightblue;    
+  text-align: center;
+  margin-top: 5%;
 }
 
 /* scroll bar */
 
 /* width */
 ::-webkit-scrollbar {
-  height: 5px;
+  height: 8px;
   width :10px;
 
 }
