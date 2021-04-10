@@ -51,6 +51,11 @@ Let owner be _user_, who can create different _groups_, people added to those gr
 
 ## <a name="tech"></a>Technologies
 
+* **Front end:** HTML, CSS Bootstrap, JavaScript, jQuery, React, Node.js
+* **Email:** Php
+* **Database:** MySQL
+* **For sending email invites to add people to various wishlists:** PHP
+* **For chat:** HTML5 WebSockets, XMPP (Extensible Messaging and Presence Protocol)
 
 ## <a name="skeleton"></a>Implementation Skeleton
 ![Image of Implementation Skeleton](Implementation_Skeleton.png)
