@@ -8,7 +8,8 @@
 * [What are the features we are looking at](#features)
 * [How does it impact](#impact)
 * [Technologies](#tech)
-* [Implementation Skeleton](#skeleton)
+* [Implementation Skeleton/Overview](#skeleton)
+* [Flow of the Sytem](#flowchart)
 
 ## <a name="team-members"></a>Team Members
 * "Sushmita Paul" <b18cs007@nitm.ac.in> @sushmita04
@@ -60,3 +61,5 @@ Let owner be _user_, who can create different _groups_, people added to those gr
 ## <a name="skeleton"></a>Implementation Skeleton
 ![Image of Implementation Skeleton](Implementation_Skeleton.png)
 
+## <a name="flowchart"></a>Flow of the Sytem
+![Image of flow of system](Synchronous_flowchart.png)
