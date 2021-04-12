@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Myntra App</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="script.js"/> 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+    <style>
+    
+      </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="/"><img src="Assests/myntra.png" style="height:10vh; width:15vh;"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav d-flex justify-content-end w-100">
+        <li class="nav-item">
+          <input type="text" placeholder="Search" class="hero-input">
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="products.html">Products</a>
+        </li>
+        <li class="nav-item">
+   
+          <div class="dropdown nav-link">
+            <button onclick="myFunction()" class="dropbtn">Wishlist</button>
+              <div id="myDropdown" class="dropdown-content">
+                <a href="#Wishlist">Wishlist </a>
+                <a href="whislistcumchat.html">Wishlist 1</a>
+                <a href="#Wishlist 2">Wishlist 2</a>
+                <a href="#Create New">Create New Wishlist</a>
+              </div>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/">Cart</a>
+        </li>
+
+      </ul>
+    </div>
+  </nav>
+
+
+  
+<script>
+ 
+  function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+  }
+  
+  // Close the dropdown if the user clicks outside of it
+  window.onclick = function(event) {
+    if (!event.target.matches('.dropbtn')) {
+      var dropdowns = document.getElementsByClassName("dropdown-content");
+      var i;
+      for (i = 0; i < dropdowns.length; i++) {
+        var openDropdown = dropdowns[i];
+        if (openDropdown.classList.contains('show')) {
+          openDropdown.classList.remove('show');
+        }
+      }
+    }
+  }
+  </script>
+
+
+
+  <div class="container">
+    <div class="content">
+      <h2>Explore</h2>
+    
+      <div class= "row grid-row">
+
+        <div class = "col-6 col-lg-3 mb-1 adventure-card">
+          <div>
+             <img class="img-fluid" src="Assests/i16.webp">
+             <div>
+               <div class="card-text" style="border-bottom:none; border-bottom-left-radius: 0%; border-bottom-right-radius: 0%;" >
+                 <h6>Dressberry</h6>
+                 <h6>₹ 549</h6>
+                 
+               </div>
+               <div class="card-text " style="border-top:none; padding-bottom: 5px;" >
+                <h6><i class="fa fa-heart fa-lg "></i></h6>
+                <div class="dropdown">
+                  <button class="btn btn-warning btn-block btn-sm" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Add to Whislist
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <li class="dropdown-item" href="">Wishlist</li>
+                    <li class="dropdown-item" href="">Wishlist1</li>
+                    <li class="dropdown-item" href=""><p style="text-decoration: line-through;">wishlist2</li>
+                    <li class="dropdown-item" href="">Create a new Wishlist</li>
+                  </div>
+                </div>
+               </div>
+              </div>
+           </div>
+        </div>
+        
+        <div class = "col-6 col-lg-3 mb-1 adventure-card">
+          <div>
+             <img class="img-fluid" src="Assests/i29.jpg">
+             <div>
+               <div class="card-text" style="border-bottom:none; border-bottom-left-radius: 0%; border-bottom-right-radius: 0%;" >
+                 <h6>Red Tape</h6>
+                 <h6>₹ 2500</h6>
+                 
+               </div>
+               <div class="card-text " style="border-top:none; padding-bottom: 5px;" >
+                <h6><i class="fa fa-heart-o fa-lg "></i></h6>
+                <div class="dropdown">
+                  <button class="btn btn-warning btn-block btn-sm" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Add to Whislist
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="">Wishlist</a>
+                    <a class="dropdown-item" href="">Wishlist1</a>
+                    <a class="dropdown-item" href="">wishlist2</a>
+                    <a class="dropdown-item" href="">Create a new Wishlist</a>
+                  </div>
+                </div>
+               </div>
+              </div>
+           </div>
+        </div>
+         
+        <div class = "col-6 col-lg-3 mb-1 adventure-card">
+          <div>
+             <img class="img-fluid" src="Assests/i2.webp">
+             <div>
+               <div class="card-text" style="border-bottom:none; border-bottom-left-radius: 0%; border-bottom-right-radius: 0%;" >
+                 <h6>Atheena</h6>
+                 <h6>₹ 498</h6>
+                 
+               </div>
+               <div class="card-text " style="border-top:none; padding-bottom: 5px;" >
+                <h6 ><i  id ="heart2"  class="fa fa-heart-o fa-lg "></i></h6>
+                <div class="dropdown">
+                  <button class="btn btn-warning btn-block btn-sm" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Add to Whislist
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <li class="dropdown-item" href="">Wishlist</li>
+                    <li class="dropdown-item" href=""><p id="i2" onclick="item2()">Wishlist1</p></li>
+                    <li class="dropdown-item" href="">wishlist2</li>
+                    <li class="dropdown-item" href="">Create a new Wishlist</li>
+                  </div>
+                </div>
+               </div>
+              </div>
+           </div>
+           <script>
+            function item2() {
+              
+              document.getElementById("i2").style.textDecoration = "line-through";
+            }
+  
+            $(document).ready(function(){
+             $("#heart2 ").click(function(){
+            $("#heart2").removeClass("fa fa-heart-o");
+            $("#heart2").toggleClass("fa fa-heart");
+            });
+            });
+          
+          </script>
+        </div>
+		
+        <div class = "col-6 col-lg-3 mb-1 adventure-card">
+          <div>
+             <img class="img-fluid" src="Assests/i26.webp">
+             <div>
+               <div class="card-text" style="border-bottom:none; border-bottom-left-radius: 0%; border-bottom-right-radius: 0%;" >
+                 <h6>Levi's</h6>
+                 <h6>₹ 1500</h6>
+                 
+               </div>
+               <div class="card-text " style="border-top:none; padding-bottom: 5px;" >
+                <h6><i class="fa fa-heart-o fa-lg "></i></h6>
+                <div class="dropdown">
+                  <button class="btn btn-warning btn-block btn-sm" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Add to Whislist
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="">Wishlist</a>
+                    <a class="dropdown-item" href="">Wishlist1</a>
+                    <a class="dropdown-item" href="">wishlist2</a>
+                    <a class="dropdown-item" href="">Create a new Wishlist</a>
+                  </div>
+                </div>
+               </div>
+              </div>
+           </div>
+        </div>
+
+        <div class = "col-6 col-lg-3 mb-1 adventure-card">
+          <div>
+             <img class="img-fluid" src="Assests/i24.webp">
+             <div>
+               <div class="card-text" style="border-bottom:none; border-bottom-left-radius: 0%; border-bottom-right-radius: 0%;" >
+                 <h6>Levi's</h6>
+                 <h6>₹ 2300</h6>
+                 
+               </div>
+               <div class="card-text " style="border-top:none; padding-bottom: 5px;" >
+                <h6><i class="fa fa-heart-o fa-lg "></i></h6>
+                <div class="dropdown">
+                  <button class="btn btn-warning btn-block btn-sm" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Add to Whislist
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="">Wishlist</a>
+                    <a class="dropdown-item" href="">Wishlist1</a>
+                    <a class="dropdown-item" href="">wishlist2</a>
+                    <a class="dropdown-item" href="">Create a new Wishlist</a>
+                  </div>
+                </div>
+               </div>
+              </div>
+           </div>
+        </div>
+
+        <div class = "col-6 col-lg-3 mb-1 adventure-card">
+          <div>
+             <img class="img-fluid" src="Assests/i23.webp">
+             <div>
+               <div class="card-text" style="border-bottom:none; border-bottom-left-radius: 0%; border-bottom-right-radius: 0%;" >
+                 <h6>Only</h6>
+                 <h6>₹ 2800</h6>
+                 
+               </div>
+               <div class="card-text " style="border-top:none; padding-bottom: 5px;" >
+                <h6><i id="heart23" onclick="removelinewishlist()" class="fa fa-heart fa-lg "></i></h6>
+                <div class="dropdown">
+                  <button class="btn btn-warning btn-block btn-sm" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Add to Whislist
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <li class="dropdown-item">Wishlist</li>
+                    <li class="dropdown-item">Wishlist1</li>
+                    <li id="i23" class="dropdown-item" style="text-decoration: line-through;">wishlist2</li>
+                    <li class="dropdown-item" >Create a new Wishlist</li>
+                  </div>
+                </div>
+               </div>
+              </div>
+           </div>
+           <script>
+    
+  
+            $(document).ready(function(){
+             $("#heart23 ").click(function(){
+            $("#heart23").removeClass("fa fa-heart");
+            $("#heart23").toggleClass("fa fa-heart-o");
+            });
+            });
+            function removelinewishlist(){
+              
+            document.getElementById("i23").style.textDecoration = "None";
+            }
+             
+        
+        </script>
+            }
+          
+          </script>
+        </div>
+
+        <div class = "col-6 col-lg-3 mb-1 adventure-card">
+          <div>
+             <img class="img-fluid" src="Assests/i22.webp">
+             <div>
+               <div class="card-text" style="border-bottom:none; border-bottom-left-radius: 0%; border-bottom-right-radius: 0%;" >
+                 <h6>Levi's</h6>
+                 <h6>₹ 800</h6>
+                 
+               </div>
+               <div class="card-text " style="border-top:none; padding-bottom: 5px;" >
+                <h6><i class="fa fa-heart-o fa-lg "></i></h6>
+                <div class="dropdown">
+                  <button class="btn btn-warning btn-block btn-sm" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Add to Whislist
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="">Wishlist</a>
+                    <a class="dropdown-item" href="">Wishlist1</a>
+                    <a class="dropdown-item" href="">wishlist2</a>
+                    <a class="dropdown-item" href="">Create a new Wishlist</a>
+                  </div>
+                </div>
+               </div>
+              </div>
+           </div>
+        </div>
+
+        <div class = "col-6 col-lg-3 mb-1 adventure-card">
+          <div>
+             <img class="img-fluid" src="Assests/i1.webp">
+             <div>
+               <div class="card-text" style="border-bottom:none; border-bottom-left-radius: 0%; border-bottom-right-radius: 0%;" >
+                 <h6>Atheena</h6>
+                 <h6>₹ 1500</h6>
+                 
+               </div>
+               <div class="card-text " style="border-top:none; padding-bottom: 5px;" >
+                <h6><i id="heart1" class="fa fa-heart-o fa-lg "></i></h6>
+                <div class="dropdown">
+                  <button class="btn btn-warning btn-block btn-sm" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Add to Whislist
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <li class="dropdown-item" href="">Wishlist</li>
+                    <li id ="i1" onclick="item1()" class="dropdown-item" href="">Wishlist1</li>
+                    <li class="dropdown-item" href="">wishlist2</li>
+                    <li class="dropdown-item" href="">Create a new Wishlist</li>
+                  </div>
+                </div>
+               </div>
+              </div>
+           </div>
+           <script>
+            function item1() {
+              
+              document.getElementById("i1").style.textDecoration = "line-through";
+            }
+  
+            $(document).ready(function(){
+             $("#heart1 ").click(function(){
+            $("#heart1").removeClass("fa fa-heart-o");
+            $("#heart1").toggleClass("fa fa-heart");
+            });
+            });
+          
+          </script>
+        </div>
+
+        <div class = "col-6 col-lg-3 mb-1 adventure-card">
+          <div>
+             <img class="img-fluid" src="Assests/i21.webp">
+             <div>
+               <div class="card-text" style="border-bottom:none; border-bottom-left-radius: 0%; border-bottom-right-radius: 0%;" >
+                 <h6>Atheena</h6>
+                 <h6>₹ 1500</h6>
+                 
+               </div>
+               <div class="card-text " style="border-top:none; padding-bottom: 5px;" >
+                <h6><i class="fa fa-heart-o fa-lg "></i></h6>
+                <div class="dropdown">
+                  <button class="btn btn-warning btn-block btn-sm" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Add to Whislist
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="">Wishlist</a>
+                    <a class="dropdown-item" href="">Wishlist1</a>
+                    <a class="dropdown-item" href="">wishlist2</a>
+                    <a class="dropdown-item" href="">Create a new Wishlist</a>
+                  </div>
+                </div>
+               </div>
+              </div>
+           </div>
+        </div>
+
+        <div class = "col-6 col-lg-3 mb-1 adventure-card">
+          <div>
+             <img class="img-fluid" src="Assests/i20.webp">
+             <div>
+               <div class="card-text" style="border-bottom:none; border-bottom-left-radius: 0%; border-bottom-right-radius: 0%;" >
+                 <h6>Atheena</h6>
+                 <h6>₹ 1500</h6>
+                 
+               </div>
+               <div class="card-text " style="border-top:none; padding-bottom: 5px;" >
+                <h6><i class="fa fa-heart-o fa-lg "></i></h6>
+                <div class="dropdown">
+                  <button class="btn btn-warning btn-block btn-sm" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Add to Whislist
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="">Wishlist</a>
+                    <a class="dropdown-item" href="">Wishlist1</a>
+                    <a class="dropdown-item" href="">wishlist2</a>
+                    <a class="dropdown-item" href="">Create a new Wishlist</a>
+                  </div>
+                </div>
+               </div>
+              </div>
+           </div>
+        </div>
+
+        <div class = "col-6 col-lg-3 mb-1 adventure-card">
+          <div>
+             <img class="img-fluid" src="Assests/i19.webp">
+             <div>
+               <div class="card-text" style="border-bottom:none; border-bottom-left-radius: 0%; border-bottom-right-radius: 0%;" >
+                 <h6>Atheena</h6>
+                 <h6>₹ 1500</h6>
+                 
+               </div>
+               <div class="card-text " style="border-top:none; padding-bottom: 5px;" >
+                <h6><i class="fa fa-heart-o fa-lg "></i></h6>
+                <div class="dropdown">
+                  <button class="btn btn-warning btn-block btn-sm" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Add to Whislist
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="">Wishlist</a>
+                    <a class="dropdown-item" href="">Wishlist1</a>
+                    <a class="dropdown-item" href="">wishlist2</a>
+                    <a class="dropdown-item" href="">Create a new Wishlist</a>
+                  </div>
+                </div>
+               </div>
+              </div>
+           </div>
+        </div>
+
+        <div class = "col-6 col-lg-3 mb-1 adventure-card">
+          <div>
+             <img class="img-fluid" src="Assests/i18.webp">
+             <div>
+               <div class="card-text" style="border-bottom:none; border-bottom-left-radius: 0%; border-bottom-right-radius: 0%;" >
+                 <h6>Atheena</h6>
+                 <h6>₹ 1500</h6>
+                 
+               </div>
+               <div class="card-text " style="border-top:none; padding-bottom: 5px;" >
+                <h6><i class="fa fa-heart-o fa-lg "></i></h6>
+                <div class="dropdown">
+                  <button class="btn btn-warning btn-block btn-sm" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Add to Whislist
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="">Wishlist</a>
+                    <a class="dropdown-item" href="">Wishlist1</a>
+                    <a class="dropdown-item" href="">wishlist2</a>
+                    <a class="dropdown-item" href="">Create a new Wishlist</a>
+                  </div>
+                </div>
+               </div>
+              </div>
+           </div>
+        </div>
+
+        <div class = "col-6 col-lg-3 mb-1 adventure-card">
+          <div>
+             <img class="img-fluid" src="Assests/i17.webp">
+             <div>
+               <div class="card-text" style="border-bottom:none; border-bottom-left-radius: 0%; border-bottom-right-radius: 0%;" >
+                 <h6>Atheena</h6>
+                 <h6>₹ 1500</h6>
+                 
+               </div>
+               <div class="card-text " style="border-top:none; padding-bottom: 5px;" >
+                <h6><i class="fa fa-heart-o fa-lg "></i></h6>
+                <div class="dropdown">
+                  <button class="btn btn-warning btn-block btn-sm" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Add to Whislist
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="">Wishlist</a>
+                    <a class="dropdown-item" href="">Wishlist1</a>
+                    <a class="dropdown-item" href="">wishlist2</a>
+                    <a class="dropdown-item" href="">Create a new Wishlist</a>
+                  </div>
+                </div>
+               </div>
+              </div>
+           </div>
+        </div>
+        
+        <div class = "col-6 col-lg-3 mb-1 adventure-card">
+          <div>
+             <img class="img-fluid" src="Assests/i15.webp">
+             <div>
+               <div class="card-text" style="border-bottom:none; border-bottom-left-radius: 0%; border-bottom-right-radius: 0%;" >
+                 <h6>Atheena</h6>
+                 <h6>₹ 1500</h6>
+                 
+               </div>
+               <div class="card-text " style="border-top:none; padding-bottom: 5px;" >
+                <h6><i class="fa fa-heart-o fa-lg "></i></h6>
+                <div class="dropdown">
+                  <button class="btn btn-warning btn-block btn-sm" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Add to Whislist
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="">Wishlist</a>
+                    <a class="dropdown-item" href="">Wishlist1</a>
+                    <a class="dropdown-item" href="">wishlist2</a>
+                    <a class="dropdown-item" href="">Create a new Wishlist</a>
+                  </div>
+                </div>
+               </div>
+              </div>
+           </div>
+        </div>
+
+        <div class = "col-6 col-lg-3 mb-1 adventure-card">
+          <div>
+             <img class="img-fluid" src="Assests/i14.jpg">
+             <div>
+               <div class="card-text" style="border-bottom:none; border-bottom-left-radius: 0%; border-bottom-right-radius: 0%;" >
+                 <h6>Atheena</h6>
+                 <h6>₹ 1500</h6>
+                 
+               </div>
+               <div class="card-text " style="border-top:none; padding-bottom: 5px;" >
+                <h6><i class="fa fa-heart-o fa-lg "></i></h6>
+                <div class="dropdown">
+                  <button class="btn btn-warning btn-block btn-sm" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Add to Whislist
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="">Wishlist</a>
+                    <a class="dropdown-item" href="">Wishlist1</a>
+                    <a class="dropdown-item" href="">wishlist2</a>
+                    <a class="dropdown-item" href="">Create a new Wishlist</a>
+                  </div>
+                </div>
+               </div>
+              </div>
+           </div>
+        </div>
+        
+        <div class = "col-6 col-lg-3 mb-1 adventure-card">
+          <div>
+             <img class="img-fluid" src="Assests/i3.webp">
+             <div>
+               <div class="card-text" style="border-bottom:none; border-bottom-left-radius: 0%; border-bottom-right-radius: 0%;" >
+                 <h6>Roadster</h6>
+                 <h6>₹1268</h6>
+                 
+               </div>
+               <div class="card-text " style="border-top:none; padding-bottom: 5px;" >
+                <h6><i class="fa fa-heart fa-lg"></i></h6>
+                <div class="dropdown">
+                  <button class="btn btn-warning btn-block btn-sm" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Add to Whislist
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="">Wishlist</a>
+                    <a class="dropdown-item" href="" ><p style="text-decoration: line-through;">Wishlist1</p></a>
+                    <a class="dropdown-item" href="">wishlist2</a>
+                    <a class="dropdown-item" href="">Create a new Wishlist</a>
+                  </div>
+                </div>
+               </div>
+              </div>
+           </div>
+        </div>
+    </div>
+   </div>
+  </div>
+
+  <footer>
+    <div class="container">© Myntra Synchronous Myntra HackerRamp</div>
+  </footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+</body>
+
+</html>
